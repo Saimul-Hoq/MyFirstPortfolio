@@ -88,6 +88,7 @@ nav .menu a{
 }
 #banner .banner-image img{
     max-width: 584px;
+    /* to remove the default margin at the bottom */
     vertical-align: middle;
 }
 
