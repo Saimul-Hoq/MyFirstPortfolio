@@ -15,7 +15,7 @@ header{
     padding-top: 50px;
     background: url('../images/developer.png'), url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: center left, bottom right;
+    background-position: 23px 38px, bottom right;
 }
 
 nav{
@@ -29,6 +29,9 @@ nav{
 .logo h2{
     font-size: 45px;
     font-weight: 900;
+}
+.cv{
+    margin-right: 30px;
 }
 
 .orange{
@@ -282,13 +285,18 @@ footer{
 
    
 
-#name, #email{
+#name, #email, textarea{
     display: block;
-    padding: 18px 349px 18px 30px;
+    width: 461px;
+    padding: 18px 30px;
     margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
 .footer-container textarea{
-    padding: 18px 365px 134px 30px;
-    margin-bottom: 24px;
+    
+    height: 180px;  
+    resize: none;  
 }
 
